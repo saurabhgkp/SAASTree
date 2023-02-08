@@ -11,7 +11,6 @@ const MainRouter = () => {
             <Navbar />
             <Routes>
                 <Route exact path='/' element={<MainPage />} />
-
                 <Route exact path='/services' element={<Services />} />
                 <Route exact path='/contact' element={<Contact />} />
 
